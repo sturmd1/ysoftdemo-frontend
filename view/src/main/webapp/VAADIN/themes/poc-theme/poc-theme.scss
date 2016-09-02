@@ -1,0 +1,40 @@
+@mixin poc-theme {
+  @include valo;
+
+  #themeSelect {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    padding: 0 10px;
+    background-color: darken($v-app-background-color, 5%);
+    background-color: rgba(darken($v-app-background-color, 5%), .9);
+    color: valo-font-color($v-app-background-color);
+    border-radius: 0 0 0 $v-border-radius;
+
+    &:before {
+      content: "Theme:";
+    }
+
+    select {
+      background: transparent;
+      color: inherit;
+      border: none;
+      display: inline-block;
+    }
+  }
+
+  #login-form {
+    width: 225px;
+    height: 170px;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 30%;
+
+    .v-button {
+      left: 40px;
+    }
+
+  }
+}

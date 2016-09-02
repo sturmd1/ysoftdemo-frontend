@@ -1,0 +1,6 @@
+@import "variables";
+@import "../poc-theme/poc-theme";
+
+.poc-theme-metro {
+   @include poc-theme;
+}
