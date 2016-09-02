@@ -1,0 +1,12 @@
+127.0.0.1 - - [02/Sep/2016:14:01:19 +0200] "GET /view HTTP/1.1" 302 -
+127.0.0.1 - - [02/Sep/2016:14:01:19 +0200] "GET /view/ HTTP/1.1" 200 2134
+127.0.0.1 - - [02/Sep/2016:14:01:19 +0200] "GET /view/VAADIN/vaadinBootstrap.js?v=7.4.0 HTTP/1.1" 304 -
+127.0.0.1 - - [02/Sep/2016:14:01:19 +0200] "GET /view/VAADIN/widgetsets/com.ysoft.demo.MyAppWidgetset/com.ysoft.demo.MyAppWidgetset.nocache.js?1472817679922 HTTP/1.1" 200 8390
+127.0.0.1 - - [02/Sep/2016:14:01:19 +0200] "GET /view/VAADIN/themes/poc-theme-default-valo/styles.css?v=7.4.0 HTTP/1.1" 200 325734
+127.0.0.1 - - [02/Sep/2016:14:01:19 +0200] "GET /view/VAADIN/themes/valo/shared/img/spinner.gif HTTP/1.1" 200 21836
+127.0.0.1 - - [02/Sep/2016:14:01:19 +0200] "GET /view/VAADIN/widgetsets/com.ysoft.demo.MyAppWidgetset/7D0A3AFF57CDEABFBBCC2936373F28CD.cache.js HTTP/1.1" 200 1095960
+127.0.0.1 - - [02/Sep/2016:14:01:20 +0200] "GET /view/VAADIN/themes/poc-theme-default-valo/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [02/Sep/2016:14:01:20 +0200] "POST /view/?v-1472817679923 HTTP/1.1" 200 4952
+127.0.0.1 - - [02/Sep/2016:14:01:20 +0200] "GET /view/VAADIN/themes/valo/fonts/open-sans/OpenSans-Regular-webfont.woff HTTP/1.1" 200 22660
+127.0.0.1 - - [02/Sep/2016:14:01:20 +0200] "GET /view/VAADIN/themes/valo/fonts/open-sans/OpenSans-Light-webfont.woff HTTP/1.1" 200 22248
+127.0.0.1 - - [02/Sep/2016:14:01:20 +0200] "GET /view/VAADIN/themes/valo/fonts/open-sans/OpenSans-Semibold-webfont.woff HTTP/1.1" 200 22908
