@@ -135,6 +135,7 @@ public class TasksScreen extends AbstractScreen implements TaskSubmitHandler {
                 tasksService.deleteTask(userName, task.getId());
                 dataContainer.removeItem(task);
                 taskGrid.clearSortOrder();
+                updateBtnVisibility(taskGrid.getSelectedRow() != null);;
             }
         });
 
