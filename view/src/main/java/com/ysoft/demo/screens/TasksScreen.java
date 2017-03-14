@@ -162,7 +162,7 @@ public class TasksScreen extends AbstractScreen implements TaskSubmitHandler {
         return layout;
     }
 
-    public void displayTasks() {
+    private void displayTasks() {
         try {
             List<Task> tasks = tasksService.getTasks(userName);
             dataContainer.addAll(tasks);
